@@ -20,6 +20,7 @@ import { HeaderComponent } from './header/header.component';
   exports: [
     HeaderComponent, 
     SidebarComponent, 
+    FooterComponent
   ],
 })
 export class SharedModule { }
