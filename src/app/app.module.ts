@@ -6,10 +6,10 @@ import { SharedModule } from './shared/shared.module'
 @NgModule({
   declarations: [
     AppComponent,
-    SharedModule
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
