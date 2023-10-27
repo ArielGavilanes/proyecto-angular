@@ -20,7 +20,8 @@ import { HeaderComponent } from './header/header.component';
   exports: [
     HeaderComponent, 
     SidebarComponent, 
-    FooterComponent
+    FooterComponent,
+    BreadcrumbsComponent
   ],
 })
 export class SharedModule { }
